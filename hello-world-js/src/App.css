@@ -33,6 +33,14 @@
   padding: 12px 20px;
 }
 
+.App-button {
+  width: 15%;
+  padding: 12px 20px;
+  margin-top: 30px;
+  font-size: 22px;
+  background-color: #61dafb;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
