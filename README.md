@@ -11,12 +11,12 @@ Create a simple web app project using Java Spring Boot and React JS.
 * This `hello-world-app` project contains two modules: a **backend** service created using Java Spring Boot service and a **frontend** module using React JS framework. 
 * The integration between those two modules is via **API REST**, as illustrated below.
 
-[IMAGE]
+![hello_world_app](https://user-images.githubusercontent.com/83607914/181490537-8524c994-732e-4baf-9dfb-0a1085161279.png)
 
 ## Create Spring Boot service
 * Go to [Spring Initializr](https://start.spring.io/) and create a **Maven** project and fill in the fields as shown in the image below. Make sure to select the required dependencies as well.
 
-[IMAGE #2]
+![hello_world_app_2](https://user-images.githubusercontent.com/83607914/181490270-d46041e9-a96e-4c13-a237-25454edbbffa.png)
 
 * Click on `Generate` button and a `.zip` file containing your Spring Boot project will be downloaded.
 * Extract the `hello-world` folder inside it and add it to a new folder called `hello-world-app`.
@@ -69,4 +69,4 @@ public class HelloWorldApplication {
 * Start your React JS application by running `npm start` under `hello-world-js` directory. Make sure that **both modules are running** so they can communicate with each other.
 
 ## Demonstation
-[IMAGE #3]
+![hello_world_app_3](https://user-images.githubusercontent.com/83607914/181490324-5942a4c1-d9f5-4b1b-a832-c154c038d209.gif)
